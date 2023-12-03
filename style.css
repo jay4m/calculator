@@ -1,0 +1,83 @@
+body{
+    margin: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(145, 145, 145);
+}
+#calci{
+    background-color: rgb(44, 44, 44);
+    border-radius: 25px;
+    max-width: 500px;
+    overflow: hidden;
+    margin-right: 10px;
+
+}
+#display{
+    width: 100%;
+    padding: 25px;
+    font-size: 2rem;
+    text-align: left;
+    background-color: rgb(44, 44, 44);
+    color: aliceblue;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,0.12fr);
+    gap: 10px;
+    padding: 25px;
+}
+#dis{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border-color: transparent;
+    background-color: rgb(100, 98, 97);
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+}
+#orange{
+    background-color: rgb(255, 101, 45);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border-color: transparent;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+}
+#dis:hover{
+    background-color: rgb(131, 127, 126);
+}
+#orange:hover{
+    background-color: rgb(253, 115, 65);
+}
+#dis:active{
+    background-color: rgb(161, 156, 155);
+}
+#orange:active{
+    background-color: rgb(250, 129, 85);
+}
+#cal{
+    background-color: rgb(255, 101, 45);
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    border-color: transparent;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+}
+
+#cal:hover{
+    background-color: rgb(253, 115, 65);
+}
+
+#cal:active{
+    background-color: rgb(250, 129, 85);
+}
